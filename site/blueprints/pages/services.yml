@@ -1,0 +1,15 @@
+title: Servicios
+
+sections:
+  parts:
+    headline: Secciones
+    type: pages
+    status: all
+    info: "{{ page.intendedTemplate }}"
+    image: false
+    templates:
+      - hero
+      - info
+      - service-1
+      - service-2
+      - cta

@@ -1,0 +1,15 @@
+title: Recuadro de información
+
+fields:
+  blurb:
+    type: structure
+    label: Recuadro
+      fields:
+        heading:
+          type: text
+          label: Encabezado
+        icon:
+          type: files
+          max: 1
+          layout: cards
+          

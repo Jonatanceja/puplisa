@@ -1,0 +1,25 @@
+title: Soporte
+
+fields: 
+  downloads:
+    type: structure
+    fields:
+      os:
+        type: text
+        label: Sistema operativo
+      link:
+        type: url
+        label: Enlace de descarga
+  form:
+    title: Formulario de contacto
+    extends: formbuilder
+  cta:
+    text:
+      type: text
+      label: Texto
+    button:
+      type: text
+      label: Texto del botón
+    link:
+      type: text
+      label: Enlace del botón

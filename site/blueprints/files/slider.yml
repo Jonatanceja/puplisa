@@ -1,0 +1,15 @@
+title: Slider
+accept: image/jpeg
+fields:
+  heading:
+    type: text
+    label: Texto de producto
+  text:
+    type: textarea
+    label: 
+  boton:
+    type: text
+    label: Texto de botón
+  enlace:
+    type: text
+    label: Enlace de botón

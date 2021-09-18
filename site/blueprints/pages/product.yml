@@ -1,0 +1,40 @@
+title: Producto
+columns:
+  left: 
+    width: 1/2
+    sections:
+      photo:
+        type: fields
+        fields:
+          photo:
+            type: files
+            label: Imagen 
+            max: 1
+            layout: cards
+            size: large
+            image:
+              cover: true
+              back: white
+
+  
+  right: 
+    width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          description:
+            type: textarea
+            label: Descripción
+          details:
+            type: structure
+            label: Detalles adicionales
+            fields:
+              detail:
+                type: text
+                label: Detalle
+              description:
+                type: text
+                label: Descripción
+
+          

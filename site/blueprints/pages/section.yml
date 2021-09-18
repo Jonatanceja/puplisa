@@ -1,0 +1,36 @@
+title: Producto
+columns:
+  left: 
+    width: 1/2
+    sections:
+      photo:
+        type: fields
+        fields:
+          photo:
+            type: files
+            label: Imagen 
+            max: 1
+            layout: cards
+            size: large
+            image:
+              cover: true
+              back: white
+
+  
+  right: 
+    width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          text:
+            type: textarea
+            label: Descripción
+          button:
+            type: text
+            label: Texto del botón
+          link:
+            type: text
+            label: Enlace del botón
+
+          

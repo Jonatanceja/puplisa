@@ -1,0 +1,7 @@
+title: Cliente
+description: el cliente puede editar las páginas
+
+permissions:
+    access:
+        settings: false
+        users: false

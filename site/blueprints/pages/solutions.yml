@@ -1,0 +1,20 @@
+title: Recuadro de servicios
+
+fields:
+  info:
+    label: Texto de información
+    type: text
+  heading:
+    label: Encabezado
+    type: text
+  blurb:
+    type: structure
+    label: Recuadro
+      fields:
+        heading:
+          type: text
+          label: Encabezado
+        icon:
+          type: files
+          max: 1
+          layout: cards

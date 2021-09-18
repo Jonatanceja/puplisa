@@ -1,0 +1,13 @@
+title: Productos destacados
+
+fields:
+  info:
+    type: text
+    label: Texto de información
+  heading:
+    type: text
+    label: Encabezado
+  related:
+    label: Productos destacados
+    type: pages
+    templates: product

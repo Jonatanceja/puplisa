@@ -1,0 +1,34 @@
+title: Llamado a la acción
+columns:
+  left: 
+    width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          info: 
+            type: text
+            label: Texto informativo
+          heading:
+            type: text
+            label: Encabezado
+          button:
+            type: text
+            label: Texto del botón
+          link:
+            type: text
+            label: Enlace del botón
+  right: 
+    width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          photo:
+            type: files
+            label: Imagen
+            max: 1
+            layout: cards
+            size: huge
+            image:
+              cover: true

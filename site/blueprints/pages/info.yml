@@ -1,0 +1,36 @@
+title: Info
+columns:
+  left: 
+    width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          info:
+            type: text
+            label: Información
+          heading:
+            type: text
+            label: Encabezado
+          button1:
+            type: text
+            label: Texto del botón 1
+          link1:
+            type: text
+            label: Enlace del botón 1
+          button2:  
+            type: text
+            label: Texto del botón 2
+          link2:
+            type: text
+            label: Enlace del botón 2
+
+  right: 
+    width: 1/2
+    sections:
+      list:
+        type: fields
+        fields:
+          text:
+            type: textarea
+            label: Area de texto

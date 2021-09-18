@@ -1,0 +1,12 @@
+title: Escena hero
+
+fields: 
+  gallery:
+    type: files
+    label: Galeria
+    max: 1
+    layout: cards
+    image:
+      cover: true
+    template: 
+      - slider
