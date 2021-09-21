@@ -19,6 +19,8 @@ mix
   ])
   .setPublicPath('public/')
   .disableSuccessNotifications()
+  .browserSync('mie.test');
+  
 
 if (mix.inProduction()) {
     mix.version()
