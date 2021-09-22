@@ -7,6 +7,7 @@
     <title>{{ $site->title() }} | {{ $page->title() }}</title>
 
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
+    <link rel="stylesheet" href="{{ mix('css/swiper.css') }}" />
     <style>
         body{ position:absolute;top:0;left:0;right:0;bottom:0; }
         body > .preventive{ position:absolute;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:100%; }

@@ -12,6 +12,7 @@ let mix = require('laravel-mix');
 
 mix
   .js('resources/js/app.js', 'js')
+  .copy('node_modules/swiper/swiper-bundle.min.css', 'public/css/swiper.css')
   .postCss('resources/css/app.css', 'css', [
     require('postcss-import'),
     require('tailwindcss'),
@@ -19,7 +20,18 @@ mix
   ])
   .setPublicPath('public/')
   .disableSuccessNotifications()
-  .browserSync('mie.test');
+  .browserSync({
+    proxy: 'mie.test',
+    notify: false,
+    files: [
+        './resources',
+        './site/models',
+        './site/controllers',
+        './site/templates',
+        './site/snippets',
+        './content'
+    ]
+  });
   
 
 if (mix.inProduction()) {

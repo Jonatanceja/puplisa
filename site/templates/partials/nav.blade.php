@@ -1,8 +1,10 @@
 <nav>
   <!-- header/navigation -->
-  <div x-data="{ isOpen: false }" class="flex justify-between p-4 bg-transparent lg:p-8 border-b-white border-b fixed w-full">
+  <div x-data="{ isOpen: false }" class="flex justify-between p-4 bg-transparent lg:py-4 lg:px-8 border-b-white border-b fixed w-full">
       <div class="flex items-center">
-          <h3 class="text-2xl font-bold text-white">{{ $site->title() }}</h3>
+        <a href="{{ $site->url() }}">
+          <x-ui.logo class="text-white w-24"></x-ui.logo>
+        </a>
       </div>
 
       <!-- left header section -->
@@ -39,5 +41,9 @@
       <!-- right header section -->
 
   </div>
+  
 
+  
 </nav>
+
+
