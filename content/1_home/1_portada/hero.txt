@@ -1,7 +1,0 @@
-Title: Portada
-
-----
-
-Gallery:
-
-- home-cover.jpg

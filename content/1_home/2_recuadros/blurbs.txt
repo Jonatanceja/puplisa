@@ -1,0 +1,13 @@
+Title: Recuadros
+
+----
+
+Blurb:
+
+- 
+  heading: CCTV
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Maecenas varius tortor
+    nibh, sit amet tempor nibh finibus et.
+  icon: [ ]

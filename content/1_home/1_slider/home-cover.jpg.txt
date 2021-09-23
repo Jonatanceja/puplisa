@@ -1,0 +1,21 @@
+Heading: Soluciones integrales en electrónica
+
+----
+
+Text: Contamos con servicios de Tecnologías de Información para cada aplicación, Residencial, Comercial e Industrial, Sumamos más de 25 años de experiencia implementado soluciones, nuestros clientes avalan nuestro prestigio.
+
+----
+
+Boton: Ver servicios
+
+----
+
+Enlace: /servicios
+
+----
+
+Alt: Camaras de vigilancia
+
+----
+
+Caption: 

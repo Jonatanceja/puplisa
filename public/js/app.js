@@ -4980,7 +4980,8 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); // Uncomm
 
 
 window.Alpine = alpinejs__WEBPACK_IMPORTED_MODULE_0__.default;
-alpinejs__WEBPACK_IMPORTED_MODULE_0__.default.start();
+alpinejs__WEBPACK_IMPORTED_MODULE_0__.default.start(); // import Swiper JS
+
  // Uncomment if you need Vue
 // window.Vue = require('vue');
 // Vue.component('example', require('./components/Example.vue').default);

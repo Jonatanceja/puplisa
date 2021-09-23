@@ -1,0 +1,8 @@
+Title: Slider
+
+----
+
+Gallery:
+
+- home-cover.jpg
+- camaras-2.jpg

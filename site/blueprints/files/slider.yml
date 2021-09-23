@@ -3,13 +3,16 @@ accept: image/jpeg
 fields:
   heading:
     type: text
-    label: Texto de producto
+    label: Encabezado
   text:
     type: textarea
-    label: 
+    label: Text
   boton:
     type: text
     label: Texto de botón
   enlace:
     type: text
     label: Enlace de botón
+  alt:
+    type: text
+    label: Texto alternativo

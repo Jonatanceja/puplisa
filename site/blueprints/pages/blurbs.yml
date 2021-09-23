@@ -4,12 +4,15 @@ fields:
   blurb:
     type: structure
     label: Recuadro
-      fields:
-        heading:
-          type: text
-          label: Encabezado
-        icon:
-          type: files
-          max: 1
-          layout: cards
+    fields:
+      heading:
+        type: text
+        label: Tipo de servicio
+      text:
+        type: textarea
+        label: Descipción dek servicio
+      icon:
+        type: files
+        max: 1
+        layout: cards
           
