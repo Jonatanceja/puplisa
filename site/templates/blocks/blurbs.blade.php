@@ -1,4 +1,4 @@
-<div class="container px-5 md:px-0 mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 pb-24">
+<div class="container px-5 md:px-0 mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 pb-24 -m-20">
     @foreach ($page->blurb()->toStructure() as $item)
         <x-ui.card class="wow fadeInUp" data-wow-delay="{{ $loop->iteration * 250 }}ms">
             @if ($image = $item->icono()->toFile()) 
