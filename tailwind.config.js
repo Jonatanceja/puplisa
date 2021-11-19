@@ -3,10 +3,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        orange: {
-          light: '#FF7216',
-          DEFAULT: '#FF6500',
-          dark: '#EE5E00',
+        cyan: {
+          light: '#66CFF2',
+          DEFAULT: '#00B1EB',
+          dark: '#0082AD',
+        },
+        navy: {
+          light: '#195C90',
+          DEFAULT: '#0E3655',
+          dark: '#071D2E',
         },
       }
     },

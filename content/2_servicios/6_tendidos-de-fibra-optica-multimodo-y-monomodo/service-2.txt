@@ -1,0 +1,19 @@
+Title: Tendidos de Fibra Óptica (multimodo y monomodo)
+
+----
+
+Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie. Mauris malesuada nisi sit amet augue accumsan tincidunt. Maecenas tincidunt, velit ac porttitor pulvinar, tortor eros facilisis libero, vitae commodo nunc quam et ligula.
+
+----
+
+Button: Contrata
+
+----
+
+Link: /contacto
+
+----
+
+Photo:
+
+- fiber.png

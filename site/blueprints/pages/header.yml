@@ -1,0 +1,9 @@
+title: Encabezado
+
+fields: 
+  info:
+    type: text
+    label: Información
+  heading:
+    type: text
+    label: Encabezado

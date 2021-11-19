@@ -1,0 +1,35 @@
+Title: Intro
+
+----
+
+Info: En MIE Podemos resolver tus problemas
+
+----
+
+Heading: Lorem ipsum dolor is amet
+
+----
+
+Button1: 
+
+----
+
+Link1: 
+
+----
+
+Button2: 
+
+----
+
+Link2: 
+
+----
+
+Text:
+
+- Instalaciones de cámaras de vigilancia
+- Configuración e implementacion de conmutadores IP
+- Diagnóstico e certificación de cableado
+- Tendidos de Fibra Óptica (multimodo y monomodo)
+- Controles de acceso biométricos, faciales y/o proximidad

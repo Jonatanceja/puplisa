@@ -1,0 +1,11 @@
+title: Texto
+fields:
+  info:
+    type: text
+    label: Texto informativo
+  heading:
+    type: text
+    label: Encabezado
+  text:
+    type: textarea
+    label: Texto

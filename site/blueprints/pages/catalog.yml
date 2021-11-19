@@ -1,2 +1,4 @@
 title: Catalogo
 preset: pages
+templates: 
+  - category

@@ -8,7 +8,8 @@ sections:
     info: "{{ page.intendedTemplate }}"
     image: false
     templates:
-      - hero
+      - slider
+      - header
       - info
       - service-1
       - service-2

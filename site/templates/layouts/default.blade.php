@@ -19,9 +19,9 @@
     </style>
 </head>
 <body>
-
 @include('partials.nav')
 @yield('content')
+@include('partials.footer')
 @stack('scripts')
 <script src="{{ mix('js/app.js') }}"></script>
 </body>

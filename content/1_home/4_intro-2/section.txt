@@ -1,0 +1,19 @@
+Title: Intro 2
+
+----
+
+Photo:
+
+- imagen-1.jpg
+
+----
+
+Text: En el 2014 nace Mayoristas de Integración Electrónica S de R.L de C.V. para dar atención a los requerimientos del mercado en el área de CCTV, Cableado Estructurado, Voz y Datos.
+
+----
+
+Button: Conocenos
+
+----
+
+Link: /nosotros

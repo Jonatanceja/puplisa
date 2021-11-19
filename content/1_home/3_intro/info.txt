@@ -1,0 +1,35 @@
+Title: Intro
+
+----
+
+Info: En MIE podemos resolver tu problema
+
+----
+
+Heading: Soluciones para tu hogar y comercio
+
+----
+
+Button1: Ver servicios
+
+----
+
+Link1: /servicios
+
+----
+
+Button2: Ver productos
+
+----
+
+Link2: /productos
+
+----
+
+Text:
+
+- Instalaciones de cámaras de vigilancia
+- Configuración e implementación de conmutadores IP
+- Diagnóstico e certificación de cableado
+- Tendidos de Fibra Óptica (multimodo y monomodo)
+- Controles de acceso biométricos, faciales y/o proximidad

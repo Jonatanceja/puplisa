@@ -1,0 +1,33 @@
+Title: Misión - Visión
+
+----
+
+Blurb:
+
+- 
+  heading: Misión
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Maecenas varius tortor
+    nibh, sit amet tempor nibh finibus et.
+  iconb: [ ]
+  inconw: [ ]
+  link: ""
+- 
+  heading: Visión
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Maecenas varius tortor
+    nibh, sit amet tempor nibh finibus et.
+  iconb: [ ]
+  inconw: [ ]
+  link: ""
+- 
+  heading: Valores
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Maecenas varius tortor
+    nibh, sit amet tempor nibh finibus et.
+  iconb: [ ]
+  inconw: [ ]
+  link: ""

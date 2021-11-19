@@ -10,5 +10,33 @@ Blurb:
     Lorem ipsum dolor sit amet, consectetur
     adipiscing elit. Maecenas varius tortor
     nibh, sit amet tempor nibh finibus et.
-  icon: [ ]
+  iconb:
+    - security-camerab.svg
+  inconw:
+    - security-camera.svg
   link: /servicios
+  icon: [ ]
+- 
+  heading: Cableado Estructurado
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Maecenas varius tortor
+    nibh, sit amet tempor nibh finibus et.
+  iconb:
+    - networkb.svg
+  inconw:
+    - network.svg
+  link: /servicios
+  icon: [ ]
+- 
+  heading: Voz y Datos
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Maecenas varius tortor
+    nibh, sit amet tempor nibh finibus et.
+  iconb:
+    - lanb.svg
+  inconw:
+    - lan.svg
+  link: /servicios
+  icon: [ ]

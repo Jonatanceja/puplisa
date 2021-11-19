@@ -11,10 +11,18 @@ fields:
       text:
         type: textarea
         label: Descipción dek servicio
-      icon:
+      iconb:
         type: files
         max: 1
         layout: cards
+        width: 1/2
+        label: Icono azul
+      inconw:
+        type: files
+        max: 1
+        layout: cards
+        width: 1/2
+        label: Icono blanco
       link:
         type: text
         label: Enlace de botón

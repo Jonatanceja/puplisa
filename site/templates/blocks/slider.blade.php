@@ -11,7 +11,7 @@
                             @if ($image->boton()->isNotEmpty())
                             <div class="flex justify-center md:justify-start">
                                 <a href="{{ $image->enlace() }}">
-                                    <x-buttons.orange>{{ $image->boton() }}</x-buttons.orange>
+                                    <x-buttons.blue>{{ $image->boton() }}</x-buttons.blue>
                                 </a>
                             </div>
                             @endif

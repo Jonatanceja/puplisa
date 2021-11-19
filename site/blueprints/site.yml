@@ -13,6 +13,7 @@ columns:
           - about
           - contact
           - support
+          - ayuda
 
   right: 
     width: 1/2
