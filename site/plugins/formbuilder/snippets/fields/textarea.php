@@ -25,9 +25,9 @@
 <div<?php if($class): ?> class="<?= $class ?>"<?php endif; ?>>
 <?php endif; ?>
 <?php if($label):?>
-    <div class="mb-1 uppercase text-gray-800 text-sm"><label for="<?= $name ?>"><?= $label ?></label></div>
+    <label for="<?= $name ?>"><?= $label ?></label>
 <?php endif; ?>
-    <textarea class="border border-gray-300 rounded-md w-full mb-2" name="<?= $name ?>" id="<?= $name ?>"<?php if(!$useDiv and $class): ?> class="<?= $class ?>"<?php endif; ?><?php if($placeholder): ?> placeholder="<?= $placeholder ?>"<?php endif; ?><?php if($min):?> minlength="<?= $min ?>"<?php endif; ?><?php if($max):?> maxlength="<?= $max ?>"<?php endif; ?><?php if($rows):?> rows="<?= $rows ?>"<?php endif; ?><?php if($req):?> required<?php endif; ?>><?= $value ?></textarea>
+    <textarea name="<?= $name ?>" id="<?= $name ?>"<?php if(!$useDiv and $class): ?> class="<?= $class ?>"<?php endif; ?><?php if($placeholder): ?> placeholder="<?= $placeholder ?>"<?php endif; ?><?php if($min):?> minlength="<?= $min ?>"<?php endif; ?><?php if($max):?> maxlength="<?= $max ?>"<?php endif; ?><?php if($rows):?> rows="<?= $rows ?>"<?php endif; ?><?php if($req):?> required<?php endif; ?>><?= $value ?></textarea>
 <?php if($useDiv): ?>
 </div>
 <?php endif; ?>

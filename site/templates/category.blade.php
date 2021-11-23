@@ -9,11 +9,10 @@
         @foreach ($page->children() as $subpage)
         <a href="{{ $subpage->url() }}">
             <x-ui.card3 class="wow fadeInUp text-center uppercase" data-wow-delay="{{ $loop->iteration * 250 }}ms">
-                @if ($image = $subpage->cover()->toFile())
-                    <img src="{{ $image->url() }}" alt="Imagen de producto">
+                @if ($image = $subpage->photo()->toFile())
+                    <img src="{{ $image->url() }}" alt="">
                 @endif
                 <x-header.h4>{{ $subpage->title() }}</x-header.h4> 
-                <x-text.regular class="text-sm">{{ $subpage->description() }}</x-text.regular>
             </x-ui.card3>
         </a>
         @endforeach

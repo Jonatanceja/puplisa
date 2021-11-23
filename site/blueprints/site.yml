@@ -27,7 +27,7 @@ columns:
         label: Teléfono
         icon: phone
         width: 1/2
-      telefono2:
+      whatsapp:
         type: tel
         label: Teléfono 2
         icon: phone

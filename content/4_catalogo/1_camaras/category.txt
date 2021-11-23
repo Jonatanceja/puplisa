@@ -8,4 +8,4 @@ Description: Cámaras, CCTV
 
 Cover:
 
-- home-cover.jpg
+- camara.jpg

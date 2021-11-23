@@ -78,9 +78,9 @@
 <script src="https://hcaptcha.com/1/api.js" async defer></script>
 <?php endif; ?>
 <div<?php if($pg->fb_formbtns_class()->isNotEmpty()): ?> class="<?= $pg->fb_formbtns_class()->html() ?>"<?php endif; ?>>
-    <button class="bg-indigo-400 px-8 py-5 text-white tracking-wider rounded-full hover:bg-indigo-300 transition transform hover:scale-105 uppercase min-w-max mt-5" type="submit" name="submit"><?= $pg->fb_submit_label()->or("Submit")->html() ?></button>
+    <button type="submit" name="submit"><?= $pg->fb_submit_label()->or("Submit")->html() ?></button>
 <?php if($pg->fb_cancel_label()->isNotEmpty()): ?>
-    <button class="bg-indigo-400 px-8 py-5 text-white tracking-wider rounded-full hover:bg-indigo-300 transition transform hover:scale-105 uppercase min-w-max mt-5" type="reset"><?= $pg->fb_cancel_label()->html() ?></x-button>
+    <button type="reset"><?= $pg->fb_cancel_label()->html() ?></button>
 <?php endif; ?>
 </div>
 <?php if($isAjax and !$msgPos): ?>    <div class="messagebox" hidden></div><?php endif; ?>

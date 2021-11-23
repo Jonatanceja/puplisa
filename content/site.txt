@@ -10,7 +10,7 @@ Telefono: (33) 3616-9881
 
 ----
 
-Telefono2: 
+Whatsapp: 3321239962
 
 ----
 
@@ -43,3 +43,7 @@ Codigo: 44520
 ----
 
 Redes: 
+
+----
+
+Telefono2: 
