@@ -78,7 +78,7 @@
 <script src="https://hcaptcha.com/1/api.js" async defer></script>
 <?php endif; ?>
 <div<?php if($pg->fb_formbtns_class()->isNotEmpty()): ?> class="<?= $pg->fb_formbtns_class()->html() ?>"<?php endif; ?>>
-    <button type="submit" name="submit"><?= $pg->fb_submit_label()->or("Submit")->html() ?></button>
+    <button class="transition duration-500 ease-in-out bg-cyan hover:cyan-light transform hover:-translate-y-1 hover:scale-110 py-5 px-10 rounded-sm text-white uppercase text-sm mt-3" type="submit" name="submit"><?= $pg->fb_submit_label()->or("Submit")->html() ?></button>
 <?php if($pg->fb_cancel_label()->isNotEmpty()): ?>
     <button type="reset"><?= $pg->fb_cancel_label()->html() ?></button>
 <?php endif; ?>

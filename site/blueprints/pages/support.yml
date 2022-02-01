@@ -1,25 +1,19 @@
 title: Soporte
 
-fields: 
-  downloads:
-    type: structure
-    fields:
-      os:
-        type: text
-        label: Sistema operativo
-      link:
-        type: url
-        label: Enlace de descarga
-  form:
-    title: Formulario de contacto
-    extends: formbuilder
-  cta:
-    text:
-      type: text
-      label: Texto
-    button:
-      type: text
-      label: Texto del botón
-    link:
-      type: text
-      label: Enlace del botón
+fields:
+  background:
+    type: files
+    max: 1
+    label: Image de fondo
+  text:
+    type: text
+    label: Texto 
+  steps:
+    type: textarea
+    label: Instrucciones
+  mac:
+    type: url
+    label: Descarga Mac
+  windows: 
+    type: url
+    label: Descarga Windows

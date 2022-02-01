@@ -1,10 +1,10 @@
 <footer class="bg-navy-dark py-14">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto px-5 md:px-0">
-        <div class="flex space-x-5">
-            <div class="text-gray-500 w-24">
+        <div class="block md:flex md:space-x-5">
+            <div class="text-gray-500 w-24 mx-auto md:m-0 mb-4 md:mb-0">
                 <x-ui.logo></x-ui.logo>
             </div>
-            <div class="text-gray-500">
+            <div class="text-gray-500 text-center md:text-left">
                 <p>{{ $site->calle() }} No. {{ $site->numero() }}</p>
                 <p>Col. {{ $site->colonia() }} C.P. {{ $site->codigo() }}</p>
                 <p>{{ $site->ciudad() }}, {{ $site->estado() }}</p>

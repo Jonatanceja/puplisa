@@ -25,9 +25,9 @@
 <div<?php if($class): ?> class="<?= $class ?>"<?php endif; ?>>
 <?php endif; ?>
 <?php if($label):?>
-    <label for="<?= $name ?>"><?= $label ?></label>
+    <label class="text-xs text-gray-600 uppercase font-bold block mt-1" for="<?= $name ?>"><?= $label ?></label>
 <?php endif; ?>
-    <input type="<?= $type ?>" name="<?= $name ?>" id="<?= $name ?>"<?php if(!$useDiv and $class): ?> class="<?= $class ?>"<?php endif; ?> value="<?= $value ?>"<?php if($placeholder): ?> placeholder="<?= $placeholder ?>"<?php endif; ?><?php if($min):?> minlength="<?= $min ?>"<?php endif; ?><?php if($max):?> maxlength="<?= $max ?>"<?php endif; ?><?php if($pattern):?> pattern="<?= $pattern ?>"<?php endif; ?><?php if($req):?> required<?php endif; ?>>
+    <input class="mb-2 border border-gray-300 rounded-md w-full" type="<?= $type ?>" name="<?= $name ?>" id="<?= $name ?>"<?php if(!$useDiv and $class): ?> class="<?= $class ?>"<?php endif; ?> value="<?= $value ?>"<?php if($placeholder): ?> placeholder="<?= $placeholder ?>"<?php endif; ?><?php if($min):?> minlength="<?= $min ?>"<?php endif; ?><?php if($max):?> maxlength="<?= $max ?>"<?php endif; ?><?php if($pattern):?> pattern="<?= $pattern ?>"<?php endif; ?><?php if($req):?> required<?php endif; ?>>
 <?php if($useDiv): ?>
 </div>
 <?php endif; ?>

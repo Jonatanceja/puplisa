@@ -1,0 +1,28 @@
+Title: Soporte
+
+----
+
+Background:
+
+- network.jpeg
+
+----
+
+Text: ¿Necesitas ayuda? Nosotros podemos apoyarte de manera remota, solo sigue las indicaciones y nosotros te ayudaremos.
+
+----
+
+Steps:
+
+1. Hacer click en el botón correspondiente para descargar.
+2.  Llenar la forma de contacto con la información solicitada.
+3. Enviar forma de contacto.
+4. Esperar unos minutos, nosotros nos pondremos en contacto contigo.
+
+----
+
+Mac: https://1ss.mx/descargables/SplashtopSOS.dmg
+
+----
+
+Windows: https://1ss.mx/descargables/SplashtopSOS.exe

@@ -4,20 +4,20 @@
             <x-ui.card class="wow fadeInUp" data-wow-delay="{{ $loop->iteration * 250 }}ms">
                 <div class="flex items-center">
                     <div class="relative">
-                        @if ($page->inconw()->isNotEmpty())
+
                         <div>
                             @if ($image = $item->inconw()->toFile()) 
                             <img class="h-10 mr-5" src="{{ $image->url() }}" alt="Icono">
                             @endif
                         </div>
-                        @endif
-                        @if ($page->iconb()->isNotEmpty())
+
+
                         <div class="absolute left-0 top-0 group-hover:opacity-0">
                             @if ($image = $item->iconb()->toFile()) 
                             <img class="h-10 mr-5" src="{{ $image->url() }}" alt="Icono">
                             @endif
                         </div>
-                        @endif
+
                     </div>
                     
                     <h3 class="font-bold text-xl text-navy group-hover:text-white">{{ $item->heading() }}</h3>
