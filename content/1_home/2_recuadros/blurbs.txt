@@ -7,9 +7,8 @@ Blurb:
 - 
   heading: CCTV
   text: >
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Maecenas varius tortor
-    nibh, sit amet tempor nibh finibus et.
+    Circuito cerrado de televisión,
+    residencial, comercial e industrial.
   iconb:
     - security-camerab.svg
   inconw:
@@ -17,11 +16,12 @@ Blurb:
   link: /servicios
   icon: [ ]
 - 
-  heading: Cableado Estructurado
+  heading: 'Domótica '
   text: >
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Maecenas varius tortor
-    nibh, sit amet tempor nibh finibus et.
+    Automatización inteligente de la
+    vivienda, gestiona eficientemente el uso
+    de la energía, comunicación entre tú
+    y tu hogar.
   iconb:
     - networkb.svg
   inconw:
@@ -29,14 +29,27 @@ Blurb:
   link: /servicios
   icon: [ ]
 - 
-  heading: Voz y Datos
+  heading: Computo
   text: >
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Maecenas varius tortor
-    nibh, sit amet tempor nibh finibus et.
+    Herramientas de computo que son
+    accesibles en costo e incluyen
+    herramientas de utilidad para tu
+    negocio.
   iconb:
     - lanb.svg
   inconw:
     - lan.svg
   link: /servicios
   icon: [ ]
+- 
+  heading: Alarmas
+  text: >
+    Servicios certificados y ofertas en
+    instalación de cámaras de seguridad y
+    control de accesos para tu empresa o
+    residencia.
+  iconb:
+    - alarma-azul.svg
+  inconw:
+    - alarma-blanca.svg
+  link: /servicios

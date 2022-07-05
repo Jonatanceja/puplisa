@@ -51,7 +51,6 @@ Icon
 # ---------------
 .env
 .npmrc
-composer.lock
 package-lock.json
 yarn.lock
 npm-debug.log

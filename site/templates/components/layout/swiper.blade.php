@@ -6,7 +6,7 @@
     <div class="swiper-button-prev"></div>
 </div>
 
-
+@once
 @push('styles')
 <link rel="stylesheet" href="{{ mix('css/swiper.css') }}" />  
 @endpush
@@ -28,3 +28,4 @@ var slider = new Swiper('.slider', {
 });
 </script>
 @endpush
+@endonce

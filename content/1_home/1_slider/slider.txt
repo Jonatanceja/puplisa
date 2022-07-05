@@ -4,5 +4,6 @@ Title: Slider
 
 Gallery:
 
-- home-cover.jpg
-- camaras-2.jpg
+- 4-mie-1440x1024.jpg
+- >
+  karl-fredrickson-dsajh9b24g8-unsplash.jpeg

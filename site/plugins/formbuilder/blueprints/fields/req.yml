@@ -1,8 +1,0 @@
-type: toggle
-label: ""
-translate: false
-default: false
-text:
-  - not required
-  - required
-width: 1/4

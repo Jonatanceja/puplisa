@@ -12,12 +12,19 @@ let mix = require('laravel-mix');
 
 mix
   .js('resources/js/app.js', 'js')
+  .copy('node_modules/swiper/swiper-bundle.min.js', 'public/js/swiper.js')
   .copy('node_modules/swiper/swiper-bundle.min.css', 'public/css/swiper.css')
   .postCss('resources/css/app.css', 'css', [
     require('postcss-import'),
+    require('tailwindcss/nesting'),
     require('tailwindcss'),
-    require('postcss-nested'),
+    require('autoprefixer'),
   ])
+  .options({
+    autoprefixer: {
+      overrideBrowserslist: ["last 4 versions"]
+    }
+  })
   .setPublicPath('public/')
   .disableSuccessNotifications()
   .browserSync({
@@ -32,7 +39,6 @@ mix
         './content'
     ]
   });
-  
 
 if (mix.inProduction()) {
     mix.version()

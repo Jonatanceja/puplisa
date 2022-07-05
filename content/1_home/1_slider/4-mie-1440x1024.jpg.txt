@@ -1,0 +1,17 @@
+Heading: 
+
+----
+
+Text: 
+
+----
+
+Boton: Ver soluciones
+
+----
+
+Enlace: 
+
+----
+
+Alt: 
