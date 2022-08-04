@@ -1,0 +1,17 @@
+Heading: 
+
+----
+
+Text: 
+
+----
+
+Boton: 
+
+----
+
+Enlace: https://www.kingston.com/en
+
+----
+
+Alt: 

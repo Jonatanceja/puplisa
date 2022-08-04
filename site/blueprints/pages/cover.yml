@@ -1,0 +1,8 @@
+title: Portada
+fields:
+  cover:
+    type: files
+    max: 1
+    label: Imagen de Portada
+    layout: cards
+    size: huge

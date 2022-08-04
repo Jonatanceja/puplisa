@@ -1,0 +1,44 @@
+Title: ADC-V523 Indoor Wireless IP
+
+----
+
+Photo:
+
+- camara.jpg
+
+----
+
+Description:
+
+ADC-V523 - V523 Indoor Wireless IP
+Fixed Camera and C/I2/A 
+Interchangeable PSU
+**DESCARGA HOJA DE DATOS:**
+👉** (file:adc-data-sheets-int_1119_en-us_07adc-v523.pdf)**
+
+----
+
+Details:
+
+- 
+  detail: Marca
+  description: Alarm.com
+- 
+  detail: Color
+  description: Blanco
+- 
+  detail: 'Resolución de captura de video	'
+  description: 1080p
+- 
+  detail: Fuente de energía
+  description: Batería
+- 
+  detail: Tiempo de instalación
+  description: Tiempo de instalción
+
+----
+
+Ficha:
+
+- >
+  adc-data-sheets-int_1119_en-us_07adc-v523.pdf

@@ -1,7 +1,0 @@
-Title: Slider
-
-----
-
-Gallery:
-
-- camaras-2.jpg

@@ -1,0 +1,21 @@
+title: Contacto
+fields: 
+  whatsapp:
+    type: tel
+    label: Whatsapp
+    icon: whatsapp
+    width: 1/2
+  phone:
+    type: tel
+    label: Teléfono
+    width: 1/2
+  mail:
+    type: email
+    icon: envelope
+    label: Email
+  background:
+    type: files
+    max: 1
+    label: Imagen de fondo
+    layout: cards
+    width: 1/2

@@ -1,8 +1,8 @@
-@extends('layouts.default2')
+@extends('layouts.default')
 @section('content')
 
 <section>
-    <div class="container mx-auto px-5 md:px-0">
+    <div class="container mx-auto px-5 md:px-0 py-20">
         <x-header.h2>{{ $page->title() }}</x-header.h2>
     </div>
     <div class="container px-5 md:px-0 mx-auto grid grid-cols-2 md:grid-cols-4 gap-10 py-12">

@@ -36,5 +36,10 @@ columns:
               description:
                 type: text
                 label: Descripción
+          ficha:
+            type: files
+            label: Ficha técnica
+            max: 1
+            
 
           

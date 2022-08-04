@@ -1,0 +1,18 @@
+title: Servicio
+
+sections:
+  parts:
+    headline: Secciones
+    type: pages
+    status: all
+    info: "{{ page.intendedTemplate }}"
+    image: false
+    templates:
+      - cover
+      - intro
+      - box
+      - infography
+      - video
+      - logos
+      - reach
+      - cta

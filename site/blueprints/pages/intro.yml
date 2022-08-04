@@ -1,0 +1,14 @@
+title: Introducción
+fields:
+  text: 
+    label: Texto
+    type: textarea
+    width: 1/2
+  pic:
+    label: Imagen
+    type: files
+    layout: cards
+    size: huge
+    image:
+      cover: true
+    width: 1/2

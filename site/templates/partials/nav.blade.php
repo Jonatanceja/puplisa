@@ -1,14 +1,11 @@
 
   <!-- header/navigation -->
   <header x-data="{ isOpen: false }"
-  x-init="prev = window.pageYOffset" x-ref="navbar" @keyup.escape.window="open = false" @click.away="open = false" @scroll.window="
-            current = window.pageYOffset;
-            if(current < 200) { $refs.navbar.classList.add('text-white','bg-transparent','border-b','shadow-none'); $refs.navbar.classList.remove('text-navy','bg-white','border-b-0','shadow-md'); }
-            else { $refs.navbar.classList.add('text-navy','bg-white','border-b-0','shadow-md'); $refs.navbar.classList.remove('text-white','bg-transparent','border-b','shadow-none'); }"
-  class="flex justify-between p-4 lg:py-4 lg:px-8 fixed w-full z-50 border-b-white text-white transition duration-300 border-b">
+  class="flex justify-between p-4 lg:py-4 lg:px-8 fixed w-full z-50 bg-navy transition duration-300 border-b text-white">
       <div class="flex items-center">
         <a href="{{ $site->url() }}">
-          <x-ui.logo class="w-12 md:w-24" />
+
+          <x-ui.logo class="w-24"></x-ui.logo>
         </a>
       </div>
 
@@ -23,25 +20,39 @@
           </button>
           <div class="hidden space-x-6 lg:flex">
             <div class="flex space-x-6">
-              @foreach ($site->children()->listed() as $subpage)
-                <a href="{{ $subpage->url() }}" @click="isOpen = false" class="uppercase h-full border-b border-transparent hover:border-cyan transition">{{ $subpage->title() }}</a>
-              @endforeach
+              <a href="{{ $site->url() }}" @click="isOpen = false" class="uppercase h-full border-b border-transparent hover:border-cyan transition">Inicio</a>
+              <div x-data="{ expanded: false }">
+                <a href="#" @click="expanded = ! expanded" class="uppercase h-full border-b border-transparent hover:border-cyan transition">Servicios <span class="text-xs -mt-2"><i class="lni lni-chevron-down"></i></span></a>
+                <ul class="bg-navy absolute mt-7 p-5 rounded-b-sm shadow-md z-50 border-t-2 border-cyan mx-auto space-y-3" x-show="expanded" x-collapse x-collapse.duration.1000ms>
+                  @foreach ($site->grandChildren()->listed()->filterBy('intendedTemplate', 'service') as $item)
+                    <li>
+                      <a href="{{ $item->url() }}" class="uppercase h-full border-b border-transparent hover:border-cyan transition">{{ $item->title() }}</a>
+                    </li>
+                  @endforeach
+                </ul>
+              </div>
+              <a class="uppercase h-full border-b border-transparent hover:border-cyan transition" href="/blog">Blog</a>
+              <a href="/contacto" @click="isOpen = false" class="uppercase h-full border-b border-transparent hover:border-cyan transition">Contacto</a>
+              <a class="text-xl transform hover:scale-110" href="{{ $site->facebook() }}"><i class="lni lni-facebook-filled"></i></a>
+
             </div>
           </div>
 
           <!-- mobile navbar -->
           <div class="mobile-navbar">
               <!-- navbar wrapper -->
-              <div class="fixed left-0 w-full p-5 bg-white rounded-b-lg shadow-xl top-20 sm:top-28 transition" x-show="isOpen"
-                  @click.away=" isOpen = false">
-                  <div class="flex flex-col space-y-6">
-                    <ul>
-                      @foreach ($site->children()->listed() as $subpage)
-                      <li>
-                        <a href="{{ $subpage->url() }}" @click="isOpen = false" class="text-normal uppercase text-navy">{{ $subpage->title() }}</a>
-                      </li>
-                      @endforeach
-                    </ul>
+              <div class="absolute left-0 w-full p-5 bg-navy rounded-b-lg shadow-xl top-20 sm:top-20 transition" x-show="isOpen"@click.away=" isOpen = false">
+                  <div class="flex flex-col space-y-3">
+                    <a href="{{ $site->url() }}" @click="isOpen = false" class="uppercase h-full border-b border-transparent transition">Inicio</a>
+                    <a href="#" class="uppercase h-full border-b border-transparent transition">Servicios</a>
+                    @foreach ($site->grandChildren()->listed()->filterBy('intendedTemplate', 'service') as $item)
+                      <a href="{{ $item->url() }}" class="uppercase h-full border-b border-transparent transition ml-3 text-gray-400">- {{ $item->title() }}</a>
+                    @endforeach
+                    <a class="uppercase h-full border-b border-transparent transition" href="/blog">Blog</a>
+                    <a href="/contacto" @click="isOpen = false" class="uppercase h-full border-b border-transparent transition">Contacto</a>
+                    <a class="text-xl" href="{{ $site->facebook() }}"><i class="lni lni-facebook-filled"></i></a>
+
+              </div>
                     
                   </div>
               </div>
@@ -51,6 +62,7 @@
       <!-- right header section -->
 
     </header>
+    <div class="h-20"></div>
   
 
   

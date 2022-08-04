@@ -1,0 +1,14 @@
+title: Artículo de blog con video
+fields:
+  cover:
+    label: Imagen destacada
+    type: files
+    max: 1
+    layout: cards
+    size: huge
+  video: 
+    label: Video de YouTube
+    type: url
+  text:
+    label: Contenido
+    type: textarea

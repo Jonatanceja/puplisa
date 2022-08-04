@@ -1,0 +1,5 @@
+title: Video
+fields:
+  video:
+    type: url
+    label: Enlace de Youtube

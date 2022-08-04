@@ -1,7 +1,7 @@
-@extends('layouts.default2')
+@extends('layouts.default')
 @section('content')
 
-<section class="container mx-auto px-5 md:px-0 ">
+<section class="container mx-auto px-5 md:px-0 py-20">
     <div class="space-y-2">
         <x-header.h3>{{ $page->title() }}</x-header.h3>
         <div class="text-gray-600">
@@ -24,16 +24,31 @@
             <x-text.regular>
                 {!! $page->description()->kti() !!}
             </x-text.regular>
-            <div>
-                <a href="https://api.whatsapp.com/send?phone=521{{ $site->whatsapp() }}" target="blank">
-                    <x-buttons.navy>
-                        Cotizar
-                    </x-buttons.navy>
-                </a>
+            <div class="block space-x-0 space-y-5 md:space-y-0 md:flex md:space-x-5">
+                <div>
+                    <a href="https://api.whatsapp.com/send?phone=521{{ $site->whatsapp() }}" target="blank">
+                        <x-buttons.navy>
+                            Cotizar
+                        </x-buttons.navy>
+                    </a>
+
+                </div>
+                <div>
+                    @if ($page->ficha()->isNotEmpty())
+                        @if ($file = $page->ficha()->toFile())
+                        <a href="{{ $file->url() }}" target="blank" download="">
+                            <x-buttons.lineb>
+                                Descargar ficha
+                            </x-buttons.lineb>
+                        </a>
+                        @endif
+                    @endif
+
+                </div>
             </div>
         </div>
     </div>
-    <div class="mb-24 bg-gray-50 p-5 md:p-10 rounded-md">
+    <div class="mb-24 bg-gray-50 p-5 md:p-10 rounded-md mt-10">
         <?php $items = $page->details()->toStructure(); foreach ($items as $item): ?>
             <div class="grid grid-cols-2">
                 <div class="py-2 border-b border-gray-100">

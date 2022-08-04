@@ -2,8 +2,10 @@
     <div class="swiper-wrapper">
       {{ $slot }}
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="hidden md:block">
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
 </div>
 
 @once

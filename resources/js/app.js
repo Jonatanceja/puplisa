@@ -5,6 +5,9 @@ import Alpine from 'alpinejs'
 window.Alpine = Alpine
 Alpine.start();
 
+//import alpine collapse
+import collapse from '@alpinejs/collapse'
+
 // import Swiper JS
 import Swiper from 'swiper';
 

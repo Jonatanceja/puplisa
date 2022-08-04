@@ -9,7 +9,12 @@
                 <h3 class="text-4xl font-bold w-full md:w-1/2">
                     {{ $page->heading() }}
                 </h3>
-                <x-buttons.line>{{ $page->button() }}</x-buttons.line>
+                <div>
+                    <a href="{{ $page->link() }}">
+                        <x-buttons.line>{{ $page->button() }}</x-buttons.line>
+                    </a>
+
+                </div>
             </div>
         </div>
 </section>

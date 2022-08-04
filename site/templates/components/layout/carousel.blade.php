@@ -13,7 +13,7 @@
 <script>
     var swiper = new Swiper(".mySwiper", {
       autoplay: {
-        delay: 5000,
+        delay: 1000,
       },
       // Default parameters
       slidesPerView: 1,
@@ -27,12 +27,12 @@
         },
         // when window width is >= 480px
         480: {
-          slidesPerView: 1,
+          slidesPerView: 2,
           spaceBetween: 30
         },
         // when window width is >= 640px
         640: {
-          slidesPerView: 3,
+          slidesPerView: 4,
           spaceBetween: 40
         }
       },

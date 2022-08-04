@@ -14,6 +14,7 @@ columns:
           - contact
           - support
           - ayuda
+          - blog
 
   right: 
     width: 1/2
@@ -60,20 +61,14 @@ columns:
         type: text
         label: Código Postal
         width: 1/2
-      redes:
-        label: Redes sociales
-        type: structure
-        fields:
-          red:
-            label: Red social
-            type: select
-            options:
-              fa-facebook-f: Facebook
-              fa-twitter: Twitter
-              fa-instagram: Instagram
-              fa-whatsapp: Whatsapp
-          enlace:
-            label: Enlace de red social
-            type: url
+      facebook:
+        type: url
+        label: Facebook
+        icon: Facebook
+        width: 1/2
+      whatsapp:
+        type: url
+        label: Whatsapp
+        icon: Facebook
 
 

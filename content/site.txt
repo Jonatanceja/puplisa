@@ -10,11 +10,11 @@ Telefono: (33) 3616-9881
 
 ----
 
-Whatsapp: 3321239962
+Whatsapp: https://api.whatsapp.com/send?phone=+3333234438&text=Quiero%20informaci%C3%B3n.
 
 ----
 
-Mail: info@mie.com.mx
+Mail: info@mie.lat
 
 ----
 
@@ -39,6 +39,10 @@ Estado: Jalisco
 ----
 
 Codigo: 44520
+
+----
+
+Facebook: https://www.facebook.com/mayoristas.de.integracion.electronica
 
 ----
 

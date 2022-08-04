@@ -1,0 +1,6 @@
+title: Logos
+fields:
+  brands:
+    label: Marcas
+    type: files
+    layout: cards

@@ -1,0 +1,5 @@
+title: blog
+preset: pages
+templates:
+  - post
+  - postvideo

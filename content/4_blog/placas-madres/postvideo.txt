@@ -1,0 +1,24 @@
+Title: Placas Madres
+
+----
+
+Cover:
+
+- >
+  alexandre-debieve-fo7jilwjotu-unsplash.jpeg
+
+----
+
+Video: https://www.youtube.com/watch?v=amxrtr-G5bM&ab_channel=MarianoL.Acosta
+
+----
+
+Text:
+
+Las placas base se ofrecen en varios formatos para poder usarse en distintos tamaños de PC. Sus tamaños están estandarizados para que entren sin problemas en las cajas de PC, aunque haya fabricantes que puedan estirar un poco cada uno de los tamaños según sus necesidades. Los tamaños más comunes son:
+
+ATX: mide generalmente 305 × 244 mm, y es el tamaño que ofrece más posibilidades de ampliación. Son más caras por lo general que otros formatos más pequeños y en muchos casos un usuario normal no las va a necesitar.
+Micro-ATX: miden normalmente 244 × 244 mm, y es el tamaño recomendado para la mayoría de los usuarios y también por tener un precio más comedido.
+Mini-ITX: mide 170 × 170 mm, y están destinadas a mini-PC de todo tipo, incluidos los barebones o centros multimedia, e integran conectividad wifi y Bluetooth por lo general.
+Extended ATX (E-ATX): mide 305 × 330 mm, y cuando se mete mucha electrónica en una placa base o disponen de sockets/zócalos de mayor tamaño, las placas base también tienen que ser más grandes de lo estándar. El E-ATX tiene un tamaño de
+Hay otros tamaños de placas base bastante menos comunes, como flex-ATX, pero poca gente las va a necesitar y por tanto no quedan recogidas en este artículo, que está orientado a un uso generalista, profesional o juegos de los equipos.

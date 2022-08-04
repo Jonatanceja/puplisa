@@ -1,11 +1,3 @@
 title: Servicios
-
-sections:
-  parts:
-    headline: Secciones
-    type: pages
-    status: all
-    info: "{{ page.intendedTemplate }}"
-    image: false
-    templates:
-      - service
+preset: pages
+templates: service

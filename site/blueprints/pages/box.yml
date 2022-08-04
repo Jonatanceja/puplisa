@@ -1,0 +1,6 @@
+title: Caja de texto
+fields:
+  text:
+    label: Caja de texto
+    type: textarea
+    

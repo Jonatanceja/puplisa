@@ -16,26 +16,30 @@
         </div>
         <div class="text-center md:text-left">
             <h5 class="text-lg font-bold text-gray-500 uppercase">Navegación</h5>
-            <ul>
-                @foreach ($site->children()->listed() as $subpage)
-               <li>
-                <a href="{{ $subpage->url() }}" class="text-gray-500 uppercase hover:text-gray-400 transition">{{ $subpage->title() }}</a>   
-               </li> 
-              @endforeach
-            </ul>
+            <div class="flex flex-col space-y-3 text-gray-500">
+                <a href="{{ $site->url() }}" class="uppercase h-full border-b border-transparent transition">Inicio</a>
+                @foreach ($site->grandChildren()->listed()->filterBy('intendedTemplate', 'service') as $item)
+                  <a href="{{ $item->url() }}" class="uppercase h-full border-b border-transparent transition ml-3 text-gray-500">- {{ $item->title() }}</a>
+                @endforeach
+                <a href="/contacto" class="uppercase h-full border-b border-transparent transition">Contacto</a>
+
+          </div>
         </div>
         <div class="text-center md:text-left">
             <h5 class="text-lg font-bold text-gray-500 uppercase">Ayuda</h5>
             <ul>
-                @foreach (page('ayuda')->children() as $subpage)
                 <li>
-                    <a href="{{ $subpage->url() }}" class="text-gray-500 uppercase hover:text-gray-400 transition">{{ $subpage->title() }}</a>
+                    <a href="/soporte" class="text-gray-500 uppercase hover:text-gray-400 transition">Soporte</a>
                 </li>
-                @endforeach 
             </ul>
         </div>
     </div>
-    <div class="text-center container mx-auto py-6 border-gray-500 border-t mt-6 px-5 md:px-0">
-        <p class="text-gray-500">Todos los derechos reservados <span class="font-bold">{{ $site->nombre() }}</span> 2021</p>
+    <div class="container mx-auto py-6 border-gray-500 border-t mt-6 px-5 md:px-0 flex items-center">
+        <div class="w-full md:w-3/4">
+            <p class="text-gray-500">Todos los derechos reservados <span class="font-bold">{{ $site->nombre() }}</span> 2021</p>
+        </div>
+        <div class="w-full md:w-1/4 flex justify-end">
+            <a class="text-xl transform hover:scale-110 text-gray-500" href="{{ $site->facebook() }}"><i class="lni lni-facebook-filled"></i></a>
+        </div>
     </div>
 </footer>

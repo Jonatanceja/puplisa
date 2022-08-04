@@ -1,0 +1,8 @@
+title: Infografía
+fields:
+  info:
+    type: files
+    label: Infografía
+    layout: cards
+    size: huge
+    max: 1

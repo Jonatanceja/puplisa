@@ -5,51 +5,37 @@ Title: Recuadros
 Blurb:
 
 - 
-  heading: CCTV
-  text: >
-    Circuito cerrado de televisión,
-    residencial, comercial e industrial.
-  iconb:
-    - security-camerab.svg
-  inconw:
-    - security-camera.svg
-  link: /servicios
-  icon: [ ]
-- 
-  heading: 'Domótica '
-  text: >
-    Automatización inteligente de la
-    vivienda, gestiona eficientemente el uso
-    de la energía, comunicación entre tú
-    y tu hogar.
-  iconb:
-    - networkb.svg
-  inconw:
-    - network.svg
-  link: /servicios
-  icon: [ ]
-- 
-  heading: Computo
-  text: >
-    Herramientas de computo que son
-    accesibles en costo e incluyen
-    herramientas de utilidad para tu
-    negocio.
+  heading: COMPUTO
+  text: PYME.
   iconb:
     - lanb.svg
   inconw:
     - lan.svg
-  link: /servicios
+  link: /servicios/computo
   icon: [ ]
 - 
-  heading: Alarmas
-  text: >
-    Servicios certificados y ofertas en
-    instalación de cámaras de seguridad y
-    control de accesos para tu empresa o
-    residencia.
+  heading: CCTV
+  text: INDUSTRIAL.
+  iconb:
+    - security-camerab.svg
+  inconw:
+    - security-camera.svg
+  link: /servicios/cctv
+  icon: [ ]
+- 
+  heading: ALARMAS
+  text: COMERCIAL.
   iconb:
     - alarma-azul.svg
   inconw:
     - alarma-blanca.svg
-  link: /servicios
+  link: /servicios/alarmas
+- 
+  heading: DOMÓTICA
+  text: RECIDENCIAL.
+  iconb:
+    - networkb.svg
+  inconw:
+    - network.svg
+  link: /servicios/domotica
+  icon: [ ]

@@ -1,0 +1,17 @@
+Heading: Alarmas
+
+----
+
+Text: 
+
+----
+
+Boton: CATÁLOGO
+
+----
+
+Enlace: https://mie.lat/catalogo
+
+----
+
+Alt: 
