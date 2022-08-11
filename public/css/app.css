@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.1.4 | MIT License | https://tailwindcss.com
+! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -823,12 +823,6 @@ select {
 .mt-6 {
   margin-top: 1.5rem;
 }
-.-mt-2 {
-  margin-top: -0.5rem;
-}
-.mt-7 {
-  margin-top: 1.75rem;
-}
 .block {
   display: block;
 }
@@ -882,11 +876,11 @@ select {
 .w-24 {
   width: 6rem;
 }
-.w-6 {
-  width: 1.5rem;
-}
 .w-12 {
   width: 3rem;
+}
+.w-6 {
+  width: 1.5rem;
 }
 .max-w-4xl {
   max-width: 56rem;
@@ -1005,10 +999,6 @@ select {
 .rounded-sm {
   border-radius: 0.125rem;
 }
-.rounded-b-sm {
-  border-bottom-right-radius: 0.125rem;
-  border-bottom-left-radius: 0.125rem;
-}
 .rounded-b-lg {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -1025,20 +1015,13 @@ select {
 .border-t {
   border-top-width: 1px;
 }
-.border-t-2 {
-  border-top-width: 2px;
-}
 .border-gray-100 {
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
 }
-.border-gray-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
-}
 .border-cyan {
   --tw-border-opacity: 1;
-  border-color: rgb(0 177 235 / var(--tw-border-opacity));
+  border-color: rgb(245 156 14 / var(--tw-border-opacity));
 }
 .border-transparent {
   border-color: transparent;
@@ -1069,18 +1052,22 @@ select {
 }
 .bg-navy-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(7 29 46 / var(--tw-bg-opacity));
-}
-.bg-navy {
-  --tw-bg-opacity: 1;
-  background-color: rgb(14 54 85 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 .bg-cyan {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 177 235 / var(--tw-bg-opacity));
+  background-color: rgb(245 156 14 / var(--tw-bg-opacity));
+}
+.bg-cyan-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(207 127 0 / var(--tw-bg-opacity));
 }
 .bg-transparent {
   background-color: transparent;
+}
+.bg-navy {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 .bg-opacity-5 {
   --tw-bg-opacity: 0.05;
@@ -1234,7 +1221,7 @@ select {
 }
 .text-navy {
   --tw-text-opacity: 1;
-  color: rgb(14 54 85 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .text-gray-600 {
   --tw-text-opacity: 1;
@@ -1250,17 +1237,23 @@ select {
 }
 .text-cyan {
   --tw-text-opacity: 1;
-  color: rgb(0 177 235 / var(--tw-text-opacity));
+  color: rgb(245 156 14 / var(--tw-text-opacity));
+}
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .shadow-xl {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-  -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-          box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-.shadow-md {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
           box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
@@ -1333,7 +1326,7 @@ select {
 }
 .hover\:border-cyan:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(0 177 235 / var(--tw-border-opacity));
+  border-color: rgb(245 156 14 / var(--tw-border-opacity));
 }
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
@@ -1341,7 +1334,7 @@ select {
 }
 .hover\:bg-cyan:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 177 235 / var(--tw-bg-opacity));
+  background-color: rgb(245 156 14 / var(--tw-bg-opacity));
 }
 .hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
@@ -1349,11 +1342,11 @@ select {
 }
 .hover\:text-navy:hover {
   --tw-text-opacity: 1;
-  color: rgb(14 54 85 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
-.hover\:text-gray-400:hover {
+.hover\:text-gray-200:hover {
   --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
@@ -1375,7 +1368,7 @@ select {
 }
 .group:hover .group-hover\:text-navy {
   --tw-text-opacity: 1;
-  color: rgb(14 54 85 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .group:hover .group-hover\:text-white {
   --tw-text-opacity: 1;

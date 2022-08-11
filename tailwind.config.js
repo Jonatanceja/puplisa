@@ -4,14 +4,14 @@ module.exports = {
     extend: {
       colors: {
         cyan: {
-          light: '#66CFF2',
-          DEFAULT: '#00B1EB',
-          dark: '#0082AD',
+          light: '#FFC66A',
+          DEFAULT: '#F59C0E',
+          dark: '#CF7F00',
         },
         navy: {
-          light: '#195C90',
-          DEFAULT: '#0E3655',
-          dark: '#071D2E',
+          light: '#5C5C5C',
+          DEFAULT: '#000000',
+          dark: '#000000',
         },
       }
     },

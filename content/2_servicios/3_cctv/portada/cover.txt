@@ -1,7 +1,0 @@
-Title: portada
-
-----
-
-Cover:
-
-- b1.jpg

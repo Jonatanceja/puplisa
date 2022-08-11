@@ -1,18 +1,15 @@
 title: Servicio
 
-sections:
-  parts:
-    headline: Secciones
-    type: pages
-    status: all
-    info: "{{ page.intendedTemplate }}"
-    image: false
-    templates:
-      - cover
-      - intro
-      - box
-      - infography
-      - video
-      - logos
-      - reach
-      - cta
+fields:
+  photo:
+    label: Imagen de servicio
+    type: files
+    max: 1
+    width: 1/2
+    layout: cards
+    size: huge
+  text:
+    label: Descripción de servicio
+    type: textarea
+    width: 1/2
+    

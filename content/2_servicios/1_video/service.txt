@@ -1,0 +1,11 @@
+Title: Video
+
+----
+
+Photo:
+
+- domenico-loia-hgv2tfoh0ns-unsplash.jpeg
+
+----
+
+Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices, nulla a dictum lobortis, tellus orci malesuada orci, sit amet posuere ipsum augue eget risus. Aliquam feugiat, lacus eget finibus auctor, lacus nibh rhoncus purus, sit amet tempor nunc enim in turpis. Aenean enim justo, feugiat blandit vehicula ut, pulvinar vel mi.

@@ -28,7 +28,7 @@ mix
   .setPublicPath('public/')
   .disableSuccessNotifications()
   .browserSync({
-    proxy: 'mie.test',
+    proxy: 'puplisa.test',
     notify: false,
     files: [
         './resources',

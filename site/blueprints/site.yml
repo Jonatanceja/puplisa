@@ -69,6 +69,10 @@ columns:
       whatsapp:
         type: url
         label: Whatsapp
-        icon: Facebook
+        icon: Whatsapp
+      youtube:
+        type: url
+        label: youtube
+        icon: youtube
 
 

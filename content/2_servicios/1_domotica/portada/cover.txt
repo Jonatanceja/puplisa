@@ -1,7 +1,0 @@
-Title: Portada
-
-----
-
-Cover:
-
-- d4.jpg
